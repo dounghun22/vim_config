@@ -31,4 +31,4 @@ set statusline=\ %<%l:%v\ [%P]%=%a\ %h%m%r\ %F\
 set ruler
 set fileencodings=utf8,euc-kr
 
-set guifont=D2Coding:h12:cANSI:qDRAFT
+"set guifont=D2Coding:h12:cANSI:qDRAFT
