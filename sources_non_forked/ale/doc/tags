@@ -172,6 +172,7 @@ ale-cpp-gcc	ale-cpp.txt	/*ale-cpp-gcc*
 ale-cpp-options	ale-cpp.txt	/*ale-cpp-options*
 ale-cpp-uncrustify	ale-cpp.txt	/*ale-cpp-uncrustify*
 ale-cs-csc	ale-cs.txt	/*ale-cs-csc*
+ale-cs-dotnet-format	ale-cs.txt	/*ale-cs-dotnet-format*
 ale-cs-mcs	ale-cs.txt	/*ale-cs-mcs*
 ale-cs-mcsc	ale-cs.txt	/*ale-cs-mcsc*
 ale-cs-options	ale-cs.txt	/*ale-cs-options*
@@ -257,6 +258,7 @@ ale-go-gobuild	ale-go.txt	/*ale-go-gobuild*
 ale-go-gofmt	ale-go.txt	/*ale-go-gofmt*
 ale-go-golangci-lint	ale-go.txt	/*ale-go-golangci-lint*
 ale-go-golangserver	ale-go.txt	/*ale-go-golangserver*
+ale-go-golines	ale-go.txt	/*ale-go-golines*
 ale-go-golint	ale-go.txt	/*ale-go-golint*
 ale-go-gometalinter	ale-go.txt	/*ale-go-gometalinter*
 ale-go-gopls	ale-go.txt	/*ale-go-gopls*
@@ -344,12 +346,17 @@ ale-javascript-prettier-eslint	ale-javascript.txt	/*ale-javascript-prettier-esli
 ale-javascript-prettier-standard	ale-javascript.txt	/*ale-javascript-prettier-standard*
 ale-javascript-standard	ale-javascript.txt	/*ale-javascript-standard*
 ale-javascript-xo	ale-javascript.txt	/*ale-javascript-xo*
+ale-json-eslint	ale-json.txt	/*ale-json-eslint*
 ale-json-fixjson	ale-json.txt	/*ale-json-fixjson*
 ale-json-jq	ale-json.txt	/*ale-json-jq*
 ale-json-jsonlint	ale-json.txt	/*ale-json-jsonlint*
 ale-json-options	ale-json.txt	/*ale-json-options*
 ale-json-prettier	ale-json.txt	/*ale-json-prettier*
 ale-json-spectral	ale-json.txt	/*ale-json-spectral*
+ale-json5-eslint	ale-json5.txt	/*ale-json5-eslint*
+ale-json5-options	ale-json5.txt	/*ale-json5-options*
+ale-jsonc-eslint	ale-jsonc.txt	/*ale-jsonc-eslint*
+ale-jsonc-options	ale-jsonc.txt	/*ale-jsonc-options*
 ale-julia-languageserver	ale-julia.txt	/*ale-julia-languageserver*
 ale-julia-options	ale-julia.txt	/*ale-julia-options*
 ale-kotlin-kotlinc	ale-kotlin.txt	/*ale-kotlin-kotlinc*
@@ -472,6 +479,7 @@ ale-puppet-puppetlint	ale-puppet.txt	/*ale-puppet-puppetlint*
 ale-purescript-language-server	ale-purescript.txt	/*ale-purescript-language-server*
 ale-purescript-options	ale-purescript.txt	/*ale-purescript-options*
 ale-purescript-purty	ale-purescript.txt	/*ale-purescript-purty*
+ale-purescript-tidy	ale-purescript.txt	/*ale-purescript-tidy*
 ale-pyrex-cython	ale-pyrex.txt	/*ale-pyrex-cython*
 ale-pyrex-options	ale-pyrex.txt	/*ale-pyrex-options*
 ale-python-autoflake	ale-python.txt	/*ale-python-autoflake*
@@ -744,6 +752,8 @@ b:ale_cs_csc_assemblies	ale-cs.txt	/*b:ale_cs_csc_assemblies*
 b:ale_cs_csc_assembly_path	ale-cs.txt	/*b:ale_cs_csc_assembly_path*
 b:ale_cs_csc_options	ale-cs.txt	/*b:ale_cs_csc_options*
 b:ale_cs_csc_source	ale-cs.txt	/*b:ale_cs_csc_source*
+b:ale_cs_dotnet_format_executable	ale-cs.txt	/*b:ale_cs_dotnet_format_executable*
+b:ale_cs_dotnet_format_options	ale-cs.txt	/*b:ale_cs_dotnet_format_options*
 b:ale_cs_mcs_options	ale-cs.txt	/*b:ale_cs_mcs_options*
 b:ale_cs_mcsc_assemblies	ale-cs.txt	/*b:ale_cs_mcsc_assemblies*
 b:ale_cs_mcsc_assembly_path	ale-cs.txt	/*b:ale_cs_mcsc_assembly_path*
@@ -774,6 +784,8 @@ b:ale_deno_unstable	ale-typescript.txt	/*b:ale_deno_unstable*
 b:ale_desktop_desktop_file_validate_options	ale-desktop.txt	/*b:ale_desktop_desktop_file_validate_options*
 b:ale_detail_to_floating_preview	ale.txt	/*b:ale_detail_to_floating_preview*
 b:ale_dhall_executable	ale-dhall.txt	/*b:ale_dhall_executable*
+b:ale_dhall_freeze_options	ale-dhall.txt	/*b:ale_dhall_freeze_options*
+b:ale_dhall_options	ale-dhall.txt	/*b:ale_dhall_options*
 b:ale_disable_lsp	ale.txt	/*b:ale_disable_lsp*
 b:ale_dockerfile_dockerfile_lint_executable	ale-dockerfile.txt	/*b:ale_dockerfile_dockerfile_lint_executable*
 b:ale_dockerfile_dockerfile_lint_options	ale-dockerfile.txt	/*b:ale_dockerfile_dockerfile_lint_options*
@@ -838,6 +850,7 @@ b:ale_go_gofmt_options	ale-go.txt	/*b:ale_go_gofmt_options*
 b:ale_go_golangci_lint_executable	ale-go.txt	/*b:ale_go_golangci_lint_executable*
 b:ale_go_golangci_lint_options	ale-go.txt	/*b:ale_go_golangci_lint_options*
 b:ale_go_golangci_lint_package	ale-go.txt	/*b:ale_go_golangci_lint_package*
+b:ale_go_golines_options	ale-go.txt	/*b:ale_go_golines_options*
 b:ale_go_golint_executable	ale-go.txt	/*b:ale_go_golint_executable*
 b:ale_go_golint_options	ale-go.txt	/*b:ale_go_golint_options*
 b:ale_go_gometalinter_executable	ale-go.txt	/*b:ale_go_gometalinter_executable*
@@ -850,6 +863,7 @@ b:ale_go_gopls_use_global	ale-go.txt	/*b:ale_go_gopls_use_global*
 b:ale_go_govet_options	ale-go.txt	/*b:ale_go_govet_options*
 b:ale_go_langserver_executable	ale-go.txt	/*b:ale_go_langserver_executable*
 b:ale_go_langserver_options	ale-go.txt	/*b:ale_go_langserver_options*
+b:ale_go_lines_executable	ale-go.txt	/*b:ale_go_lines_executable*
 b:ale_go_revive_executable	ale-go.txt	/*b:ale_go_revive_executable*
 b:ale_go_revive_options	ale-go.txt	/*b:ale_go_revive_options*
 b:ale_go_staticcheck_executable	ale-go.txt	/*b:ale_go_staticcheck_executable*
@@ -1088,6 +1102,9 @@ b:ale_puppet_puppet_options	ale-puppet.txt	/*b:ale_puppet_puppet_options*
 b:ale_puppet_puppetlint_executable	ale-puppet.txt	/*b:ale_puppet_puppetlint_executable*
 b:ale_puppet_puppetlint_options	ale-puppet.txt	/*b:ale_puppet_puppetlint_options*
 b:ale_purescript_purty_executable	ale-purescript.txt	/*b:ale_purescript_purty_executable*
+b:ale_purescript_tidy_executable	ale-purescript.txt	/*b:ale_purescript_tidy_executable*
+b:ale_purescript_tidy_options	ale-purescript.txt	/*b:ale_purescript_tidy_options*
+b:ale_purescript_tidy_use_global	ale-purescript.txt	/*b:ale_purescript_tidy_use_global*
 b:ale_pyrex_cython_executable	ale-pyrex.txt	/*b:ale_pyrex_cython_executable*
 b:ale_pyrex_cython_options	ale-pyrex.txt	/*b:ale_pyrex_cython_options*
 b:ale_python_auto_pipenv	ale-python.txt	/*b:ale_python_auto_pipenv*
@@ -1479,6 +1496,8 @@ g:ale_cs_csc_assemblies	ale-cs.txt	/*g:ale_cs_csc_assemblies*
 g:ale_cs_csc_assembly_path	ale-cs.txt	/*g:ale_cs_csc_assembly_path*
 g:ale_cs_csc_options	ale-cs.txt	/*g:ale_cs_csc_options*
 g:ale_cs_csc_source	ale-cs.txt	/*g:ale_cs_csc_source*
+g:ale_cs_dotnet_format_executable	ale-cs.txt	/*g:ale_cs_dotnet_format_executable*
+g:ale_cs_dotnet_format_options	ale-cs.txt	/*g:ale_cs_dotnet_format_options*
 g:ale_cs_mcs_options	ale-cs.txt	/*g:ale_cs_mcs_options*
 g:ale_cs_mcsc_assemblies	ale-cs.txt	/*g:ale_cs_mcsc_assemblies*
 g:ale_cs_mcsc_assembly_path	ale-cs.txt	/*g:ale_cs_mcsc_assembly_path*
@@ -1510,6 +1529,8 @@ g:ale_deno_unstable	ale-typescript.txt	/*g:ale_deno_unstable*
 g:ale_desktop_desktop_file_validate_options	ale-desktop.txt	/*g:ale_desktop_desktop_file_validate_options*
 g:ale_detail_to_floating_preview	ale.txt	/*g:ale_detail_to_floating_preview*
 g:ale_dhall_executable	ale-dhall.txt	/*g:ale_dhall_executable*
+g:ale_dhall_freeze_options	ale-dhall.txt	/*g:ale_dhall_freeze_options*
+g:ale_dhall_options	ale-dhall.txt	/*g:ale_dhall_options*
 g:ale_disable_lsp	ale.txt	/*g:ale_disable_lsp*
 g:ale_dockerfile_dockerfile_lint_executable	ale-dockerfile.txt	/*g:ale_dockerfile_dockerfile_lint_executable*
 g:ale_dockerfile_dockerfile_lint_options	ale-dockerfile.txt	/*g:ale_dockerfile_dockerfile_lint_options*
@@ -1582,6 +1603,7 @@ g:ale_go_gofmt_options	ale-go.txt	/*g:ale_go_gofmt_options*
 g:ale_go_golangci_lint_executable	ale-go.txt	/*g:ale_go_golangci_lint_executable*
 g:ale_go_golangci_lint_options	ale-go.txt	/*g:ale_go_golangci_lint_options*
 g:ale_go_golangci_lint_package	ale-go.txt	/*g:ale_go_golangci_lint_package*
+g:ale_go_golines_options	ale-go.txt	/*g:ale_go_golines_options*
 g:ale_go_golint_executable	ale-go.txt	/*g:ale_go_golint_executable*
 g:ale_go_golint_options	ale-go.txt	/*g:ale_go_golint_options*
 g:ale_go_gometalinter_executable	ale-go.txt	/*g:ale_go_gometalinter_executable*
@@ -1594,6 +1616,7 @@ g:ale_go_gopls_use_global	ale-go.txt	/*g:ale_go_gopls_use_global*
 g:ale_go_govet_options	ale-go.txt	/*g:ale_go_govet_options*
 g:ale_go_langserver_executable	ale-go.txt	/*g:ale_go_langserver_executable*
 g:ale_go_langserver_options	ale-go.txt	/*g:ale_go_langserver_options*
+g:ale_go_lines_executable	ale-go.txt	/*g:ale_go_lines_executable*
 g:ale_go_revive_executable	ale-go.txt	/*g:ale_go_revive_executable*
 g:ale_go_revive_options	ale-go.txt	/*g:ale_go_revive_options*
 g:ale_go_staticcheck_executable	ale-go.txt	/*g:ale_go_staticcheck_executable*
@@ -1861,6 +1884,9 @@ g:ale_puppet_puppet_options	ale-puppet.txt	/*g:ale_puppet_puppet_options*
 g:ale_puppet_puppetlint_executable	ale-puppet.txt	/*g:ale_puppet_puppetlint_executable*
 g:ale_puppet_puppetlint_options	ale-puppet.txt	/*g:ale_puppet_puppetlint_options*
 g:ale_purescript_purty_executable	ale-purescript.txt	/*g:ale_purescript_purty_executable*
+g:ale_purescript_tidy_executable	ale-purescript.txt	/*g:ale_purescript_tidy_executable*
+g:ale_purescript_tidy_options	ale-purescript.txt	/*g:ale_purescript_tidy_options*
+g:ale_purescript_tidy_use_global	ale-purescript.txt	/*g:ale_purescript_tidy_use_global*
 g:ale_pyrex_cython_executable	ale-pyrex.txt	/*g:ale_pyrex_cython_executable*
 g:ale_pyrex_cython_options	ale-pyrex.txt	/*g:ale_pyrex_cython_options*
 g:ale_python_auto_pipenv	ale-python.txt	/*g:ale_python_auto_pipenv*
