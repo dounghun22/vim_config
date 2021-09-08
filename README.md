@@ -18,6 +18,7 @@ The awesome version includes a lot of great plugins, configurations and color sc
 
 	git clone --depth=1 https://github.com/dounghun22/vim_config.git ~/.vim_runtime
 	sh ~/.vim_runtime/install_awesome_vimrc.sh
+    source ~/.bashrc
 	
 ### Install for multiple users
 To install for multiple users, the repository needs to be cloned to a location accessible for all the intended users.
