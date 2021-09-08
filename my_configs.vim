@@ -33,4 +33,6 @@ set fileencodings=utf8,euc-kr
 
 "set guifont=D2Coding:h12:cANSI:qDRAFT
 
-let g:indentLine_color_term = 255
+let g:indentLine_color_term = 250
+
+cnoreabbrev t Tlist
