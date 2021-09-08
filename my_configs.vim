@@ -36,3 +36,8 @@ set fileencodings=utf8,euc-kr
 let g:indentLine_color_term = 250
 
 cnoreabbrev t Tlist
+cnoreabbrev W w
+cnoreabbrev Q q
+cnoreabbrev Wq wq
+cnoreabbrev wQ wq
+cnoreabbrev WQ wq
