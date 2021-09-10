@@ -34,6 +34,7 @@ set fileencodings=utf8,euc-kr
 "set guifont=D2Coding:h12:cANSI:qDRAFT
 
 let g:indentLine_color_term = 250
+let g:deoplete#enable_at_startup = 1
 
 cnoreabbrev t Tlist
 cnoreabbrev W w
