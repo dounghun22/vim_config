@@ -11,7 +11,7 @@ There are two versions:
 
 I would, of course, recommend using the awesome version.
 
-###Install You Confict Me
+### Install You Confict Me
 (1) gcc-8 g++-8 : https://askubuntu.com/questions/1028601/install-gcc-8-only-on-ubuntu-18-04
 (2) cmake 3.16 : https://eehoeskrap.tistory.com/397
 (3) vim 8.2 : https://ubuntuhandbook.org/index.php/2019/12/install-vim-8-2-ubuntu-18-04-16-04-19-10/
