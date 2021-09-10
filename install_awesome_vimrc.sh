@@ -3,6 +3,10 @@ set -e
 
 cd ~/.vim_runtime
 
+cd my_plugins/YouCompleteMe
+python install.py --all
+cd ~/.vim_runtime
+
 if [ -d "~/.vim" ];then
     rm -rf ~/.vim
 fi
