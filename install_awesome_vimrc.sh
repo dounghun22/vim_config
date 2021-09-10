@@ -19,11 +19,11 @@ fi
 
 cp .tmux.conf ~/.tmux.conf
 
-if [ -z 'grep "LS_COLORS" ~/.bashrc' ]; then
-    echo "LS_COLORS=$LS_COLORS:'tw=00;33:ow=01;33:'; export LS_COLORS" >> ~/.bashrc
+if [ -z $(grep "LS_COLORS" ~/.bashrc) ];then
+    echo "LS_COLORS=\$LS_COLORS:'tw=00;33:ow=01;33:'; export LS_COLORS" >> ~/.bashrc
 fi
 
-if [ -z 'grep "TERM=" ~/.bashrc' ]; then
+if [ -z $(grep "TERM=" ~/.bashrc) ];then
     echo 'export TERM="xterm-256color"' >> ~/.bashrc
 fi
 
