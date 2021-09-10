@@ -11,6 +11,11 @@ There are two versions:
 
 I would, of course, recommend using the awesome version.
 
+## To use completes
+(1) Upgrade Vim Over 8.2 : https://ubuntuhandbook.org/index.php/2019/12/install-vim-8-2-ubuntu-18-04-16-04-19-10/
+
+(2) install clang : sudo apt install clang clang-8 && sudo snap install --classic clangd
+
 ## How to install the Awesome version?
 ### Install for your own user only
 The awesome version includes a lot of great plugins, configurations and color schemes that make Vim a lot better. To install it simply do following from your terminal:
