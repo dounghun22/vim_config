@@ -5,8 +5,6 @@ cd ~/.vim_runtime
 
 cd my_plugins/YouCompleteMe
 python install.py --all
-python install.py --clang-completer
-python install.py --clangd-completer
 cd ~/.vim_runtime
 
 if [ -d "~/.vim" ];then
