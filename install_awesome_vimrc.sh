@@ -1,16 +1,7 @@
 #!/bin/bash
 set -e
 
-if [ -d "~/.vim" ];then
-    rm -rf ~/.vim
-fi
-
-cp -r .vim_files ~/.vim
-
-if [ -e "~/.tmux.conf" ];then
-    rm ~/.tmux.conf
-fi
-
+\cp -r .vim_files ~/.vim
 cp .tmux.conf ~/.tmux.conf
 
 LS="LS_COLORS=\$LS_COLORS:'tw=00;33:ow=01;33:'; export LS_COLORS"
