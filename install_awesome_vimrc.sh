@@ -2,8 +2,8 @@
 set -e
 
 rm -rf ~/.vim
-cp -r .vim_files ~/.vim
-cp .tmux.conf ~/.tmux.conf
+cp -r ~/.vim_runtime/.vim_files ~/.vim
+cp ~/.vim_runtime/.tmux.conf ~/.tmux.conf
 
 LS="LS_COLORS=\$LS_COLORS:'tw=00;33:ow=01;33:'; export LS_COLORS"
 COND_LS=$(grep "LS_COLORS" ~/.bashrc)
