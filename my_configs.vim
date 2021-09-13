@@ -35,6 +35,8 @@ set fileencodings=utf8,euc-kr
 
 let g:indentLine_color_term = 250
 
+autocmd FileType make set noexpandtab
+
 cnoreabbrev t Tlist
 cnoreabbrev W w
 cnoreabbrev Q q
