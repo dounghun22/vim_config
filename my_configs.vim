@@ -43,3 +43,7 @@ cnoreabbrev Q q
 cnoreabbrev Wq wq
 cnoreabbrev wQ wq
 cnoreabbrev WQ wq
+
+map 1 :set paste<CR>
+map 2 :set nopaste<CR>
+map <f3> /
