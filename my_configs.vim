@@ -47,3 +47,4 @@ cnoreabbrev WQ wq
 map 1 :set paste<CR>
 map 2 :set nopaste<CR>
 map <f3> /
+map 4 :nohl
