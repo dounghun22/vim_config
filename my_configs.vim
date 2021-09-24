@@ -48,3 +48,4 @@ map 1 :set paste<CR>
 map 2 :set nopaste<CR>
 map <f3> /
 map 4 :nohl<CR>
+map 5 <C-W>=<CR>
