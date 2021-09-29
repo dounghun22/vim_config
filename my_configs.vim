@@ -36,6 +36,7 @@ set fileencodings=utf8,euc-kr
 let g:indentLine_color_term = 250
 
 autocmd FileType make set noexpandtab
+au BufNewFile,BufRead *.xv so ~/.vim_runtime/lang_plugin/verilog/syntax/verilog_systemverilog.vim
 
 cnoreabbrev t Tlist
 cnoreabbrev W w
@@ -46,6 +47,7 @@ cnoreabbrev WQ wq
 
 map 1 :set paste<CR>
 map 2 :set nopaste<CR>
+map 3 :Tlist<CR>
 map <f3> /
 map 4 :nohl<CR>
 map 5 <C-W>=<CR>
