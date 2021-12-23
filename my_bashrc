@@ -1,3 +1,3 @@
 force_color_prompt=yes
-LS_COLORS=\$LS_COLORS:'tw=00;33:ow=01;33:'; export LS_COLORS
+LS_COLORS="tw=00;33:ow=01;33:"; export LS_COLORS
 export TERM="xterm-256color"
