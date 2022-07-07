@@ -51,3 +51,4 @@ map 3 :Tlist<CR>
 map <f3> /
 map 4 :nohl<CR>
 map 5 <C-W>=<CR>
+map ` :NERDTreeToggle<CR>
