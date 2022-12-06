@@ -79,3 +79,4 @@ autocmd BufRead *.twig set syntax=html filetype=html
 """"""""""""""""""""""""""""""
 let vim_markdown_folding_disabled = 1
 
+au BufNewFile,BufRead *.sv so ~/.vim_runtime/lang_plugin/verilog_systemverilog/syntax/verilog_systemverilog.vim

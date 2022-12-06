@@ -36,7 +36,6 @@ set fileencodings=utf8,euc-kr
 let g:indentLine_color_term = 250
 
 autocmd FileType make set noexpandtab
-au BufNewFile,BufRead *.sv so ~/.vim_runtime/lang_plugin/verilog_systemverilog/syntax/verilog_systemverilog.vim
 
 cnoreabbrev t Tlist
 cnoreabbrev W w
@@ -52,3 +51,7 @@ map <f3> /
 map 4 :nohl<CR>
 map 5 <C-W>=<CR>
 map ` :NERDTreeToggle<CR>
+
+"VIM Terminal
+cnoreabbrev vsterm vert term
+cnoreabbrev spterm term
