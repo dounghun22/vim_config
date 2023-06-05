@@ -12,11 +12,7 @@ let s:vim_runtime = expand('<sfile>:p:h')."/.."
 call pathogen#infect(s:vim_runtime.'/sources_forked/{}')
 call pathogen#infect(s:vim_runtime.'/sources_non_forked/{}')
 
-if index(['c', 'cpp', 'cc', 'h', 'hpp'], &filetype) != -1
-    call pathogen#infect(s:vim_runtime.'/lang_plugin/c/{}')
-else
-    call pathogen#infect(s:vim_runtime.'/lang_plugin/basic/{}')
-endif
+call pathogen#infect(s:vim_runtime.'/lang_plugin/basic/{}')
 
 call pathogen#infect(s:vim_runtime.'/my_plugins/{}')
 call pathogen#helptags()
