@@ -31,7 +31,7 @@ set statusline=\ %<%l:%v\ [%P]%=%a\ %h%m%r\ %F\
 set ruler
 set fileencodings=utf8,euc-kr
 
-"set guifont=D2Coding:h12:cANSI:qDRAFT
+set guifont=D2Coding:h12:cANSI:qDRAFT*
 
 let g:indentLine_color_term = 250
 
@@ -51,6 +51,11 @@ map <f3> /
 map 4 :nohl<CR>
 map 5 <C-W>=<CR>
 map ` :NERDTreeToggle<CR>
+
+iunmap $1
+iunmap $2
+iunmap $3
+iunmap $4
 
 "VIM Terminal
 cnoreabbrev vsterm vert term
