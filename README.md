@@ -1,4 +1,12 @@
-<center> <h1> Awesome Linux Environment Configurations! </h1> </center>
+<center> <h1> Remove To New Repository! </h1> </center>
+
+**Hello This repository is closed. And move to [dounghun22/awesome-linux-configs]**
+
+New repository provides more confiugrations over vim. Thankyou. Bye ~:
+
+[dounghun22/awesome-linux-configs]: https://github.com/dounghun22/awesome-linux-configs.git
+
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 Hello~! I am working as a SoC design engineer.
 I have been using Linux environment for several years for development.
