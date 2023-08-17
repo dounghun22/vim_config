@@ -1,4 +1,4 @@
-<center> <h1> Remove To New Repository! </h1> </center>
+<center> <h1> Move To New Repository! </h1> </center>
 
 **Hello This repository is closed. And move to [dounghun22/awesome-linux-configs]**
 
