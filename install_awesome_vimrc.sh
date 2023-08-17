@@ -32,6 +32,8 @@ else
     echo "Installed the bashrc successfully! Enjoy :-)"
 fi
 
+touch ~/.vim_runtime/personalized.sh
+
 if [ -e ~/.ctags ]; then
     cp ~/.ctags ~/.vim_runtime/backup
 fi
@@ -58,5 +60,7 @@ try
   source ~/.vim_runtime/my_configs.vim
 catch
 endtry' > ~/.vimrc
+
+touch ~/.vim_runtime/personalized.vim
 
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"

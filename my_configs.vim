@@ -52,6 +52,7 @@ map 4 :nohl<CR>
 map 5 <C-W>=<CR>
 map 6 :RainbowToggle<CR>
 map ` :NERDTreeToggle<CR>
+map ~ :Commentary<CR>
 
 iunmap $1
 iunmap $2
@@ -61,3 +62,5 @@ iunmap $4
 "VIM Terminal
 cnoreabbrev vsterm vert term
 cnoreabbrev spterm term
+
+source ~/.vim_runtime/personalized.vim
